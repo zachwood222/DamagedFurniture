@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f4f4f4;
+}
+form {
+    margin-bottom: 20px;
+}
+input, button {
+    padding: 10px;
+    margin-right: 10px;
+}
+#damageTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+#damageTable th, #damageTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+#alertBox {
+    margin: 10px 0;
+    color: green;
+}

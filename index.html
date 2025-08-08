@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Damaged Furniture Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Damaged Furniture Tracker</h1>
+    <form id="damageForm">
+        <input type="text" id="itemName" placeholder="Furniture Item" required>
+        <input type="text" id="damageDesc" placeholder="Damage Description" required>
+        <input type="number" id="hoursWorked" placeholder="Hours Worked" step="0.1" required>
+        <button type="submit">Add Damage</button>
+    </form>
+    <div id="alertBox"></div>
+    <table id="damageTable">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Hours</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
